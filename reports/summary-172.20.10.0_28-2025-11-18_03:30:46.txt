@@ -1,0 +1,22 @@
+--- Automated Nmap Vulnerability Summary ---
+Scan Run Date: 2025-11-18 03:31:37
+
+=================================================
+HOST: 172.20.10.1 | Status: UP
+=================================================
+OPEN PORTS FOUND:
+  - 21/tcp (tcpwrapped) | Version: N/A
+  - 53/tcp (domain) | Version: N/A
+  - 49152/tcp (tcpwrapped) | Version: N/A
+  - 62078/tcp (tcpwrapped) | Version: N/A
+
+=================================================
+HOST: 172.20.10.2 | Status: UP
+=================================================
+No open ports found.
+
+=================================================
+HOST: 172.20.10.3 | Status: UP
+=================================================
+No open ports found.
+

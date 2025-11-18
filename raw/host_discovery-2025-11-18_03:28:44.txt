@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Tue Nov 18 03:28:44 2025 as: /usr/lib/nmap/nmap -sn -oN raw/host_discovery-2025-11-18_03:28:44.txt 172.20.10.0/28
+Nmap scan report for 172.20.10.1
+Host is up (0.0072s latency).
+MAC Address: 2A:2D:7F:16:9A:64 (Unknown)
+Nmap scan report for 172.20.10.2
+Host is up (0.0033s latency).
+MAC Address: 38:D5:7A:D1:BB:A7 (Cloud Network Technology Singapore PTE.)
+Nmap scan report for 172.20.10.3
+Host is up.
+# Nmap done at Tue Nov 18 03:28:46 2025 -- 16 IP addresses (3 hosts up) scanned in 1.56 seconds
