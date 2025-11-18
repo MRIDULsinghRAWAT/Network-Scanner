@@ -1,0 +1,22 @@
+reports."
+Networking,ip a / DHCP,Confirmed network configuration (172.20.10.3/28) and host discovery on the subnet.3. Key Findings>
+172.20.10.1,UP,"21, 53, 49152, 62078","Port 53 (DNS) showed an unrecognized service, and ports 21, 49152, and 62078 were>
+20.10.2,UP,None Found,"All 1000 ports were filtered (no-response)
+# 🛡️ Automated Network Scanner & Reporting Tool
+
+This project provides an automated solution for local network vulnerability assessment using **Bash Scripting** and **Python 3**. It customizes the process from aggressive Nmap scanning to generating analyst-ready reports.
+
+## 🚀 Key Features
+
+* **Automation:** A single Bash script (`scanner.sh`) handles host discovery, Nmap execution, and file management.
+* **Deep Scanning:** Uses aggressive Nmap flags (`-A`, `-v`, `-sV`, `-sC`) for service version detection and vulnerability scripting.
+* **Reporting:** Generates raw Nmap XML files, clean text summaries, and detailed, browser-viewable **HTML reports** (the primary deliverable).
+
+---
+
+## 💻 Execution Command
+
+To run the full scan and reporting process on a target subnet (replace the CIDR with your target):
+
+```bash
+sudo ./scripts/scanner.sh 172.20.10.0/28

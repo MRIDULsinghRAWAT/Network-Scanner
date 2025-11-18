@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Tue Nov 18 10:58:21 2025 as: /usr/lib/nmap/nmap -sS -sV -A --script default,vuln -T4 -oA /home/kali/network-scanner-project/raw/scan-172.20.10.0_28-2025-11-18_10:58:21 172.20.10.0/28
+Host: 172.20.10.1 ()	Status: Up
+Host: 172.20.10.1 ()	Ports: 21/open/tcp//tcpwrapped///, 53/open/tcp//domain//(generic dns response: NOTIMP)/, 49152/open/tcp//tcpwrapped///, 62078/open/tcp//tcpwrapped///	Ignored State: closed (996)	Seq Index: 260	IP ID Seq: All zeros
+Host: 172.20.10.2 ()	Status: Up
+Host: 172.20.10.2 ()	Ports: 	Ignored State: filtered (1000)
+Host: 172.20.10.3 ()	Status: Up
+Host: 172.20.10.3 ()	Ports: 	Ignored State: closed (1000)
+# Nmap done at Tue Nov 18 10:59:12 2025 -- 16 IP addresses (3 hosts up) scanned in 51.15 seconds
